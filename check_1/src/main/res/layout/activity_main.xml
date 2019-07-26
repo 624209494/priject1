@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:gravity="center"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,5 +12,13 @@
     android:id="@+id/btn1"
     android:text="按钮"
     android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:id="@+id/imgs"
+        android:src="@mipmap/qq"
+        android:layout_height="100dp" />
+
 
 </LinearLayout>
