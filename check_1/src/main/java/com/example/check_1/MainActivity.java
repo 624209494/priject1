@@ -1,4 +1,4 @@
-package com.example.check_1;
+﻿package com.example.check_1;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     }
-
+//注释
     private void initView() {
         mBtn1 = (Button) findViewById(R.id.btn1);
         mBtn1.setOnClickListener(this);
